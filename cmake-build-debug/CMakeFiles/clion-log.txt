@@ -1,0 +1,4 @@
+/home/marsouin/Téléchargements/clion-2020.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/marsouin/Project/Futuristic_Gambling_Casino_room-1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marsouin/Project/Futuristic_Gambling_Casino_room-1

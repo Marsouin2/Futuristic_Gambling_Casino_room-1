@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Futuristic_Gambling_Casino_room_1.dir/main.cpp.o  -o Futuristic_Gambling_Casino_room_1 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/casino_tetris.dir/src/main.cpp.o  -o bin/casino_tetris 
