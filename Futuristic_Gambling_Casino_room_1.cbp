@@ -65,9 +65,46 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="mylib">
+				<Option output="/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/libmylib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marsouin/Project/Futuristic_Gambling_Casino_room-1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/Makefile&quot;  VERBOSE=1 mylib"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mylib/fast">
+				<Option output="/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/libmylib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marsouin/Project/Futuristic_Gambling_Casino_room-1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/Makefile&quot;  VERBOSE=1 mylib/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/Gameloop/gameloop.cpp">
+			<Option target="casino_tetris"/>
+			<Option target="mylib"/>
+		</Unit>
+		<Unit filename="/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/Gameloop/gameloop.hpp">
+			<Option target="casino_tetris"/>
+			<Option target="mylib"/>
+		</Unit>
 		<Unit filename="/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/main.cpp">
 			<Option target="casino_tetris"/>
+			<Option target="mylib"/>
 		</Unit>
 		<Unit filename="/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/casino_tetris.dir/src/main.cpp.o  -o bin/casino_tetris 
+/usr/bin/c++  -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system -g   CMakeFiles/casino_tetris.dir/src/main.cpp.o CMakeFiles/casino_tetris.dir/src/Gameloop/gameloop.cpp.o  -o bin/casino_tetris 

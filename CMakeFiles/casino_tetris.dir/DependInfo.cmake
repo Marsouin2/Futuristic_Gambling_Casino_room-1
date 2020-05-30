@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/Gameloop/gameloop.cpp" "/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/CMakeFiles/casino_tetris.dir/src/Gameloop/gameloop.cpp.o"
   "/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/main.cpp" "/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/CMakeFiles/casino_tetris.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

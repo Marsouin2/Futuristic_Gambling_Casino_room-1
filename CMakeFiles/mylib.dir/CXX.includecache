@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/Gameloop/gameloop.cpp
+gameloop.hpp
+/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/Gameloop/gameloop.hpp
+
+/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/Gameloop/gameloop.hpp
+patron_gameloop.hpp
+/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/Gameloop/patron_gameloop.hpp
+../WindowManager/window_manager.hpp
+/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/WindowManager/window_manager.hpp
+
+/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/Gameloop/patron_gameloop.hpp
+
+/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/WindowManager/patron_window_manager.hpp
+
+/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/WindowManager/window_manager.hpp
+patron_window_manager.hpp
+/home/marsouin/Project/Futuristic_Gambling_Casino_room-1/src/WindowManager/patron_window_manager.hpp
+

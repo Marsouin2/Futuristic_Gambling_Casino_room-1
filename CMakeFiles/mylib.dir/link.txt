@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmylib.a  CMakeFiles/mylib.dir/src/main.cpp.o CMakeFiles/mylib.dir/src/Gameloop/gameloop.cpp.o
+/usr/bin/ranlib libmylib.a

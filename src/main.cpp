@@ -1,6 +1,13 @@
+#include "Gameloop/gameloop.hpp"
+
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Gameloop        main_gameloop; // initialiser en dynamique ou en statique
+
+    while (main_gameloop.Run())
+    {
+
+    }
     return 0;
 }
